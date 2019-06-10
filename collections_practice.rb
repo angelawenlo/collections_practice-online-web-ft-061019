@@ -37,7 +37,7 @@ end
 
 def add_s(words)
   words.each do |word|
-  if words[1]
+  if word == words[1]
     word
   else
     "#{word}s"
