@@ -37,6 +37,6 @@ end
 
 def add_s(words)
   words.each_with_index.collect {|word, i|
-  "#{word}s"}
+  i != 2 "#{word}s"}
 
 end
