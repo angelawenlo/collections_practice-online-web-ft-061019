@@ -8,6 +8,6 @@ def sort_array_desc(numbers)
 end
 
 def sort_array_char_count(animals)
- char_length = animals.length
+ animals.sort_by {|animal| animal.length}
  binding.pry
 end
