@@ -31,6 +31,6 @@ def find_a(words)
   end
 end
 
-def sum_array
-
+def sum_array(numbers)
+  total = numbers.sum
 end
