@@ -37,6 +37,8 @@ end
 
 def add_s(words)
   words.collect |word|
+  if word != words[1]
+    "#{word}s"
   #words.each_with_index.collect {|word, index|}
   binding.pry
 end
