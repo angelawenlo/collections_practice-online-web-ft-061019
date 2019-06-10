@@ -14,3 +14,7 @@ end
 def swap_elements(names)
   names = names[0], names[2], names[1]
 end
+
+def reverse_array(numbers)
+  numbers.reverse
+end
