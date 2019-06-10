@@ -38,7 +38,7 @@ end
 def add_s(words)
   words.each do |word|
   if word == words[2]
-    words
+    word
     binding.pry
   end
 end
