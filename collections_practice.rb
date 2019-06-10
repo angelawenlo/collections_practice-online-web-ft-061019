@@ -25,4 +25,4 @@ def kesha_maker(names)
   end
 end
 
-def find_a
+def find_a(words)
