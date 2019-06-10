@@ -9,4 +9,5 @@ end
 
 def sort_array_char_count(animals)
  char_length = animals.length
+ char_length.sort
 end
