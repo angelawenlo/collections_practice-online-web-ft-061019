@@ -19,6 +19,6 @@ def reverse_array(numbers)
   numbers.reverse
 end
 
-def kesha_maker
+def kesha_maker (names)
 
 end
