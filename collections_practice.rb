@@ -41,7 +41,6 @@ def add_s(words)
     "#{word}s"
     else
       word
-  #words.each_with_index.collect {|word, index|}
     end
   end
 end
