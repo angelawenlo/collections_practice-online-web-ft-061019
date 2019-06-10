@@ -34,3 +34,5 @@ end
 def sum_array(numbers)
   total = numbers.sum
 end
+
+def add_s(words)
