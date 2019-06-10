@@ -37,6 +37,6 @@ end
 
 def add_s(words)
   words.each_with_index.collect {|word|, i}
-    end
+  binding.pry
   end
 end
