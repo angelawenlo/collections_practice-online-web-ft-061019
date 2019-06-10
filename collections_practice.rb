@@ -36,5 +36,6 @@ def sum_array(numbers)
 end
 
 def add_s(words)
-  if 
+  if words == words[2]
+    words
 end
