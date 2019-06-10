@@ -37,10 +37,10 @@ end
 
 def add_s(words)
   words.each do |word|
-    if word == words[1]
+    if words[1]
     word
     else
-      word += "s"
+      word  "s"
     end
   end
 end
