@@ -37,11 +37,9 @@ end
 
 def add_s(words)
   words.each_with_index.collect {|word, index|
-  if word == words[1]
+  if index = 1
     word
   else
-    "#{word}s"
+    "#{word}s"}
   end
-end
-words
 end
