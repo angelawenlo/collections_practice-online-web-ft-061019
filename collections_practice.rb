@@ -19,8 +19,10 @@ def reverse_array(numbers)
   numbers.reverse
 end
 
-def kesha_maker (names)
+def kesha_maker(names)
   names.each do |name|
     name[2] = "$"
   end
 end
+
+def find_a
