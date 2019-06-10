@@ -21,6 +21,7 @@ end
 
 def kesha_maker (names)
   names.each do |name|
+    name[2] = "$"
     binding.pry
   end
 end
