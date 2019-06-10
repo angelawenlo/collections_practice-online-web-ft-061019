@@ -39,6 +39,8 @@ def add_s(words)
   words.collect |word|
   if words[1]
     word
+  else
+    "#{word}s"
   "#{word}s"}
 
 end
