@@ -22,4 +22,5 @@ end
 def kesha_maker (names)
   names.each do |name|
     binding.pry
+  end
 end
