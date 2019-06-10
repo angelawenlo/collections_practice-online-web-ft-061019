@@ -9,5 +9,4 @@ end
 
 def sort_array_char_count(animals)
  animals.sort_by {|animal| animal.length}
- binding.pry
 end
