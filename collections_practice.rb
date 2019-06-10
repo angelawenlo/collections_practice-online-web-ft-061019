@@ -10,3 +10,7 @@ end
 def sort_array_char_count(animals)
  animals.sort_by {|animal| animal.length}
 end
+
+def swap_elements
+
+end
