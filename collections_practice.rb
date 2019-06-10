@@ -39,8 +39,8 @@ def add_s(words)
   words.collect do |word|
   if word != words[1]
     "#{word}s"
-  else
-    word
+    else
+      word
   #words.each_with_index.collect {|word, index|}
     end
   end
