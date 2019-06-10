@@ -36,7 +36,7 @@ def sum_array(numbers)
 end
 
 def add_s(words)
-  words.each_with_index.collect {|word|, i}
+  words.each_with_index.collect {|word, i|}
   binding.pry
   end
 end
